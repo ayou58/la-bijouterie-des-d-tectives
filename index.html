@@ -237,6 +237,14 @@
       </form>
     </section>
   </main>
+  <link rel="manifest" href="manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
+
+
 
   <footer>
     © 2026 La bijouterie des détectives — Site vitrine marketing.  
